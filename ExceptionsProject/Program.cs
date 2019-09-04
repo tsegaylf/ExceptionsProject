@@ -8,7 +8,8 @@ namespace ExceptionsProject {
             try {
                 var ans = My.Math.Add(1, 2);
                 ans = My.Math.Sub(ans, 2);
-                ans = My.Math.Mult(0, ans);
+                ans = My.Math.Mult(110, ans);
+                Console.WriteLine($"Answer is {ans}");
                 ans = My.Math.Div(17183, 1);
                 Console.WriteLine($"Answer is {ans}");
             }
